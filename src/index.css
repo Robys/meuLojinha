@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-list{
+  margin: 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+
+}
+
+.card-list li{
+  width: 340px;
+  height: 340px;
+  margin: 10px;
+  
+}
+
+.card-list img{
+  align-self: center;
+  height:200px;
+  max-width: 200px;
+
+}
+
+.cart-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product{
+  margin: 40px;
+}
+.product img{
+  float: left;
+}
+
+.product-discription{
+  float: right;
+  width: 640px;
+  margin: 10px;
+}
